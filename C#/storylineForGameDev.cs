@@ -1,3 +1,6 @@
+//there's a dev suite in Duke Nukem for DOSBOX where you can build your own levels to the game
+//A lot of it is polygonal architecture and rendering, but building out the story for an entirely
+//new game in C# is a good note taking format before drafting out the scene and building the gameplay
 using System;
 
 namespace GenericDevPlot
