@@ -15,3 +15,20 @@ if now >= 19:00
 #I'll need to reread my pinout for the zero motherboard and see which GPIO needs a positive value
 
 
+#Graduation requirements calculator
+#This is simple but I needed it at one point (not due to academic actions, but because TESU's xfer credit policy was so convoluted)
+statement_one = False
+
+statement_two = True
+
+credits = 120
+gpa = 1.8
+
+if not gpa >= 2.0:
+  print("Your GPA is not high enough to graduate.")
+
+if not credits >= 120:
+  print("You do not have enough credits to graduate.")
+
+if not credits >= 120 and not gpa >=2.0:
+  print("You do not meet either requirement to graduate!")
