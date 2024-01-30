@@ -13,7 +13,7 @@ namespace channelHopper
     {
       double freq = 190.000;
 
-      for i in {190..164} do 
+      for i in {164..190} do 
       
       (i+=0.250 from freq && delay 5000);
       {
