@@ -47,3 +47,6 @@ namespace ForLoop
     
   }
 }
+
+//The foreach loop here is used to print out tasks in a list to the terminal. I don't yet have a use for this one
+//but I'm thinking of ways to use it on a pico board with one sensor and a .98" screen
