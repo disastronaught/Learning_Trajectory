@@ -1,5 +1,11 @@
 //The following few programs are loop statements for use with the raspberry pi pico in C++, there's some conversion
 //needed but since I'm building in C# at the moment, I'll store them here.
+      /*while loop: while(){..} 
+      do...while loop: do{...}while();
+      for loop: for(int i=0; i<x; i++){}
+      foreach loop: foreach(int item in list){}
+      jump statements: break, continue, return*/
+
 using System;
 
 namespace CameraButton
