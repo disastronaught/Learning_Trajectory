@@ -32,3 +32,19 @@ if not credits >= 120:
 
 if not credits >= 120 and not gpa >=2.0:
   print("You do not meet either requirement to graduate!")
+
+#calculating letter grades in if/elif/else statements. This is crazy fast comming off of a ten day C# binge
+grade = 86
+
+if (grade >= 90):
+  print("A")
+elif(grade >= 80) and (grade <= 90):
+  print("B")
+elif(grade >= 70) and (grade <= 80):
+  print("C")
+elif(grade >= 60) and (grade <= 70):
+  print("D")
+else:
+  print("F")
+
+
