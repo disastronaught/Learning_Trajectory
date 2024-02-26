@@ -1,5 +1,5 @@
 //Ok, I'm liking this. Go uses some things with declarations which are reminiscent of lambda statements from C# with it's variable declarations
-//which make the code read really cleanly and clearly. This is fast.
+//which make the code read really cleanly and clearly. This is fast. 
 
 package main
 
