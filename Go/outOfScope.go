@@ -2,7 +2,7 @@
 //We're doing that here by making the return type of 'lateMessage' string, and returning it at the end of the func
 //this way, when we call isItLateInNewYork, our return will be the logical output and we wont recieve an "...is not declared" function
 
-package main
+package main 
 import (
   "fmt"
   "time"
