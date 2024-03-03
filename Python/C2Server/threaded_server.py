@@ -14,7 +14,14 @@ server_socket.bint((ip_address, port_number))
 server_socket.listen(2)
 
 client_socket,address = server_socket,accept()
+msg = client_socket.recv(1024).decode()
 #now we can accept any incoming connection req's
+
+while msg!='quit'
+    print(msg)
+    client_socket.send(mesage.encode())
+    msg = client_socket.recv(1024).decode()
+
 
 msg =client.socket.recv(1024)#this is a transmission limit 
 
