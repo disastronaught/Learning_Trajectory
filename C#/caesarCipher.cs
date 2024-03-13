@@ -20,7 +20,7 @@ namespace CaesarCipher
     for (int j = 2; j < 10; j++){}
 
     char message = letters[];
-
+ 
     int index = Array.IndexOf(letters, alphabet);
 
     char newLetter = (..);
