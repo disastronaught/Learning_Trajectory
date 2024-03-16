@@ -9,3 +9,4 @@ func main() {
 	starAddress := &star
   fmt.Println("The address of star is", starAddress)
 }
+ 
