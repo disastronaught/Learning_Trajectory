@@ -14,3 +14,5 @@ $my_num.CompareTo(6)
 #Here we're converting variables, in this case from an integer to a string.
 $my_string = $my_num.ToString()
 
+#If we need to know the type of a variable we can call the GetType() function like this 
+$my_string.GetType().Name
