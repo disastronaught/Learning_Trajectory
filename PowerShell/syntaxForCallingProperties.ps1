@@ -2,3 +2,6 @@
 #document I can use while coding in the powershell terminal
 
 $var | Get-Member -MemberType Property
+
+#This is used for printing the methods for this variable
+$my_num | Get-Member -MemberType Method
