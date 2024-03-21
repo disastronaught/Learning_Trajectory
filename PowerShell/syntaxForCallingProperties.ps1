@@ -9,3 +9,8 @@ $my_num | Get-Member -MemberType Method
 #this means to me, that we can compare strings or integers, the first thing that comes to mind is a checksum
 #likewise, we can probably use this to check hashes or longer formatted variables to each other instead of
 #doing it digit by digit
+$my_num.CompareTo(6)
+
+#Here we're converting variables, in this case from an integer to a string.
+$my_string = $my_num.ToString()
+
