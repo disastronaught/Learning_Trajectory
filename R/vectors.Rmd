@@ -1,9 +1,13 @@
 ---
-title: "Introduction to R Syntax"
+title: "R Syntax"
 output: html_notebook
 ---
 ```{r}
 #creating a list of similarly formatted variables (vector) is similar to building a two dimensional array in C type languages
 #In R it's a little simpler and using methods to analyze the baser format and printing locations is also easier
+#what's also neat about listing analysis of the data set itself is our ability to use methods like 'typeof' and 'length' etc.. to micro analyze 
+
 phone <- c(123, 456, 7890)
+print(length(phone))
+print(typeof(phone))
 ```
