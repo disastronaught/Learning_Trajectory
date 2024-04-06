@@ -1,5 +1,5 @@
 ---
-title: "Introduction to R Syntax"
+title: "R Syntax"
 output: html_notebook
 ---
 ```{r}
