@@ -1,0 +1,11 @@
+---
+title: "Introduction to R Syntax"
+output: html_notebook
+---
+```{r}
+#here we've got some generic print statements that return characters, integers and strings, but what's important is how it's displayed
+#In the output: line we've stated that, should our program be called, it can be hosted locally in a browser as a notebook.nb file
+print('ogon')
+print(32)
+print('32')
+```
